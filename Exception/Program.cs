@@ -36,6 +36,7 @@ namespace PatientConsole
 
             Console.WriteLine($"Generated {patients.Count} fake patients");
             Console.WriteLine();
+            Console.WriteLine("Patients Data");
 
             foreach (var patient in patients.Take(10))
             {
